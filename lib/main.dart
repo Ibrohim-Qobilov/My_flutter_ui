@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:ui/pages/all_pages.dart';
 
+
 void main() {
   runApp(MyApp());
 }
@@ -15,6 +16,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
       ),
       home: AllPage(),
+
+      
+      
     );
   }
 }

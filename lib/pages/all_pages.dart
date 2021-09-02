@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:ui/actors_frofile/main_page_ui4.dart';
 import 'package:ui/food_applichation/home_page.dart';
 import 'package:ui/party%20event/party_page.dart';
+import 'package:ui/shop/shop_page.dart';
+import 'package:ui/traver/travel_page.dart';
 import 'package:ui/ui_1/ui1.dart';
 import 'package:ui/ui_2_page_view/ui2.dart';
 
@@ -46,9 +48,15 @@ class AllPage extends StatelessWidget {
               ),
               OutlinedButton(
                 onPressed: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) =>  PartyEventPage(),),);
+                  Navigator.push(context, MaterialPageRoute(builder: (context) =>  ShopPage(),),);
                 },
-                child: Text("Party"),
+                child: Text("Shop"),
+              ),
+              OutlinedButton(
+                onPressed: () {
+                  Navigator.push(context, MaterialPageRoute(builder: (context) =>  TravelPage(),),);
+                },
+                child: Text("Travel"),
               ),
           ],
         ),
