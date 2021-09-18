@@ -57,6 +57,7 @@ flutter:
     - assets/images/party/
     - assets/images/shop/
     - assets/images/travel/
+    - assets/images/loginpage/
     
   #   - images/a_dot_ham.jpeg
 
